@@ -2,7 +2,7 @@ Barbearia
 
 Status: Em Desenvolvimento
 
-Java/MySql
+HTML/Css/JAvascript/Java/MySql
 
 Desenvolvedor: Marcos Mello
 
