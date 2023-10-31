@@ -11,13 +11,7 @@ body {
 .container {
     background-color: #FFEEEE;
     padding: 20px;
-    padding-left: 120px;
    
-}
-
-.container h1{
-    margin-bottom: 20px;
-    font-family: "Kdam Thmor Pro";
 }
 
 #selectProfissional{
@@ -27,9 +21,9 @@ body {
 
 #btnProfi{
     margin-top: 30px;
-    margin-left: 105px;
+    margin-left: 75px;
     width: 50px;
-    right: 30;
+    right: 30px;
     font-weight: bold;
 }
 
@@ -40,9 +34,9 @@ body {
 
 #btnServ{
     margin-top: 30px;
-    margin-left: 110px;
+    margin-left: 75px;
     width: 50px;
-    right: 30;
+    right: 30px;
     font-weight: bold;
 }
 
@@ -57,36 +51,26 @@ body {
 
 #btnCli{
     margin-top: 30px;
-    margin-left: -290px;
+    margin-left: -360px;
     width: 50px;
-    right: 30;
+    right: 30px;
     font-weight: bold;
-}
-
-#obs{
-    width: 400px;
 }
 
 #campoAdicionar{
     margin-top: 70px;
 }
 
-#campoAdicionar button{
-    width: 300px;
-    height: 50px;
-    font-family: "Kdam Thmor Pro";
-}
-
 #campoAdicionar p{
-    margin-left: 100px;
-    
+    margin-left: 190px;
+    margin-top: 0px;
 }
 
 .list-group {
  
     
    
-    padding: 20px; /* Espaçamento interno do menu */
+    padding: 20px;
 }
 
 
