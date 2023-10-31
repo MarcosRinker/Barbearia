@@ -21,7 +21,7 @@
                 <ul class="list-group ">
                     <li class="list-group-item  border-0"><a href="agenda.html" ">Início</a></li>
                     <li class=" list-group-item border-0"><a href="agendamento.html" ">Agendamento</a></li>
-                    <li class=" list-group-item border-0"><a href="#cliente">Cliente</a></li>
+                    <li class=" list-group-item border-0"><a href="cliente.html">Cliente</a></li>
                     <li class="list-group-item   border-0"><a href="#profissional" ">Profissional</a></li>
                     <li class=" list-group-item border-0"><a href="#servico">Serviço</a></li>
                 </ul>
@@ -33,15 +33,15 @@
                     <form action="" method="post" id="formulario">
                         <div class="row mb-3">
                             <div class="col-md-3">
-                                <label for="inputData" class="form-label">Data:</label>
+                                <label for="inputData" class="form-label">Data*</label>
                                 <input type="date" class="form-control" id="inputData" required />
                             </div>
                             <div class="col-md-3">
-                                <label for="inputHoraInicio" class="form-label">Hora de Início:</label>
+                                <label for="inputHoraInicio" class="form-label">Hora de Início*</label>
                                 <input type="time" class="form-control" id="inputHoraInicio" required />
                             </div>
                             <div class="col-md-3">
-                                <label for="selectProfissional" class="form-label">Profissional:</label>
+                                <label for="selectProfissional" class="form-label">Profissional*</label>
                                 <select class="form-select" id="selectProfissional" required>
                                     <option value="" disabled selected>Selecione um Profissional</option>
                                     <!-- Opções do Combobox Profissional -->
@@ -57,9 +57,9 @@
                         <div class="row d-flex justify-content-center">
                             <div class="col-sm-8 col-md-4">
                                 <div class="mb-3">
-                                    <label for="inputServico" class="form-label font-weight-bold">Serviço:</label>
+                                    <label for="inputServico" class="form-label font-weight-bold">Serviço*</label>
                                     <select class="form-select" id="inputServico">
-                                        <option value="" disabled selected>Selecione um Cliente:</option>
+                                        <option value="" disabled selected>Selecione um Serviço:</option>
                                         <!-- Opções do combobox de Serviço -->
                                     </select>
                                 </div>
@@ -70,7 +70,7 @@
                                 </div>
                             </div>
                             <div class="col-sm-8 col-md-6">
-                                <div class="mb-3">
+                                <div id="obs" class="mb-3">
                                     <label for="inputObs" class="form-label font-weight-bold">Observação:</label>
                                     <textarea class="form-control" id="inputObs" rows="3"></textarea>
                                 </div>
@@ -82,7 +82,7 @@
                         <div id="campoCliente" class="row d-flex justify-content-left">
                             <div class="col-sm-8">
                                 <div class="mb-3">
-                                    <label for="selectCliente" class="form-label">Cliente:</label>
+                                    <label for="selectCliente" class="form-label">Cliente</label>
                                     <select class="form-select" id="selectCliente" required>
                                         <option value="" disabled selected>Selecione um Cliente</option>
                                         <!-- Opções do Combobox Cliente -->

@@ -15,55 +15,40 @@ body {
    
 }
 
-#selectProfissional{
-    width: 400px;
+.container h1{
+    margin-bottom: 20px;
 }
 
-
-#btnProfi{
-    margin-top: 30px;
-    margin-left: 105px;
-    width: 50px;
-    right: 30;
-    font-weight: bold;
-}
-
-#inputServico{
+#emailDiv{
+    margin-right: 100px;
     width: 500px;
 }
 
-
-#btnServ{
-    margin-top: 30px;
-    margin-left: 110px;
-    width: 50px;
-    right: 30;
-    font-weight: bold;
-}
-
-#campoCliente{
-    margin-top: -50px;
-}
-
-#selectCliente{
-    margin-top: 0px;
+#nomeDiv{
     width: 500px;
 }
 
-#btnCli{
-    margin-top: 30px;
-    margin-left: -290px;
-    width: 50px;
-    right: 30;
-    font-weight: bold;
+#dataDiv{
+    margin-left: 100px;
 }
 
-#obs{
-    width: 400px;
+#celDiv{
+    width: 500px;
+}
+
+#endeDiv{
+    margin-left: 100px;
+    width: 500px;
+}
+
+#cepDiv{
+    margin-right: 100px;
+    width: 500px;
 }
 
 #campoAdicionar{
     margin-top: 70px;
+        
 }
 
 #campoAdicionar button{
@@ -76,6 +61,8 @@ body {
     margin-left: 100px;
     
 }
+
+
 
 .list-group {
  
