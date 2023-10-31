@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="cliente.css">
+    <link rel="stylesheet" href="profissional.css">
     <title>Agenda</title>
 
 </head>
@@ -29,7 +29,7 @@
             <div class="col-md-9">
 
                 <div class="container mt-3">
-                    <h1 class="text-left">Cliente</h1>
+                    <h1 class="text-left">Profissional</h1>
                     <form action="" method="post" id="formulario">
                         <!-- Seção 1: Informações Pessoais -->
                         <div class="row mb-3">
@@ -45,7 +45,7 @@
                         
                         <div class="row mb-3 justify-content-end">
                             <div id="emailDiv" class="col-md-4  ">
-                                <label for="inputEmail" class="form-label">Email:</label>
+                                <label for="inputEmail" class="form-label">Email*</label>
                                 <input type="email" class="form-control" id="inputEmail" required />
                             </div>
                         </div>
@@ -56,19 +56,13 @@
                                 <label for="inputCelular" class="form-label">Celular*</label>
                                 <input type="tel" class="form-control" id="inputCelular" required />
                             </div>
-                            <div id="endeDiv" class="col-md-6">
-                                <label for="inputEndereco" class="form-label">Endereço:</label>
-                                <input type="text" class="form-control" id="inputEndereco" required />
+                            <div id="senhaDiv" class="col-md-6">
+                                <label for="inputSenha" class="form-label">Senha:</label>
+                                <input type="password" class="form-control" id="inputSenha" required />
                             </div>
                         </div>
                 
-                        <!-- Seção 3: Endereço -->
-                        <div  class="row mb-3 justify-content-end">
-                            <div id="cepDiv" class="col-md-4">
-                                <label for="inputCEP" class="form-label">CEP:</label>
-                                <input type="text" class="form-control" id="inputCEP" required />
-                            </div>
-                        </div>
+                       
                 
                         <!-- Seção 4: Botão de Cadastro e Mensagem Obrigatória -->
                         <div id="campoAdicionar" class="row d-flex justify-content-between">
